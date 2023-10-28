@@ -1,9 +1,9 @@
 #include "Array.hpp"
 
-void    leak(void)
-{
-    system("leaks ex02");
-}
+//void    leak(void)
+//{
+//    system("leaks ex02");
+//}
 //
 //#define MAX_VAL 750
 //int main(int, char**)
@@ -59,7 +59,7 @@ void    leak(void)
 
 int main(void)
 {
-    atexit(leak);
+//    atexit(leak);
     Array<char>  charArray;
 
     std::cout << "charArray size: " << charArray.size() << std::endl;

@@ -8,8 +8,8 @@ void	printElement(const T& element)
 
 int	main(void)
 {
-	char		charArray[] = "Good morning~*";
-	int			intArray[] = {1, 2, 3, 4, 5};
+	const char		charArray[] = "Good morning~*";
+	int			intArray[] = {5, 4, 3, 2, 1};
 	std::string lineArray[] = {"hi", "hello", "bye"};
 
 	iter(charArray, 15, printElement<char>);
